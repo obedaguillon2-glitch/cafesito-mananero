@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cafesito Mañanero</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f9f5f0;
+      color: #333;
+    }
+    header {
+      background: #6f4e37;
+      color: white;
+      padding: 1rem;
+      text-align: center;
+    }
+    nav {
+      background: #8c5c3d;
+      padding: 0.5rem;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1rem;
+      padding: 2rem;
+    }
+    .product {
+      background: white;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      padding: 1rem;
+      text-align: center;
+    }
+    .product img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    footer {
+      background: #6f4e37;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>☕ Cafesito Mañanero</h1>
+    <p>Tu mejor café para empezar el día</p>
+  </header>
+  <nav>
+    <a href="#">Inicio</a>
+    <a href="#">Productos</a>
+    <a href="#">Contacto</a>
+  </nav>
+  <main>
+    <section class="products">
+      <div class="product">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG" alt="Café americano">
+        <h3>Café Americano</h3>
+        <p>$2.50</p>
+      </div>
+      <div class="product">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG" alt="Capuchino">
+        <h3>Capuchino</h3>
+        <p>$3.00</p>
+      </div>
+      <div class="product">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG" alt="Latte">
+        <h3>Latte</h3>
+        <p>$3.50</p>
+      </div>
+      <div class="product">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/45/A_small_cup_of_coffee.JPG" alt="Mocaccino">
+        <h3>Mocaccino</h3>
+        <p>$3.75</p>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Cafesito Mañanero - Todos los derechos reservados</p>
+  </footer>
+</body>
+</html>
